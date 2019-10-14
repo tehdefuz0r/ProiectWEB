@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="zxx">	
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+<title>Proiect</title>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="row">
+
+				<img src="resources/img/logo-white.png" alt="Universitate logo" class="logo">
+				<ul class="main-nav js--main-nav">
+					<li><a href="#" class="js--scroll-to-prima-sectie">Part 1</a></li>
+					<li><a href="#" class="js--scroll-to-doua-sectie">Part 2</a></li>
+					<li><a href="#" class="js--scroll-to-parere">Part 3</a></li>
+					<li><a href="#" class="js--scroll-to-video">Part 4</a></li>
+				</ul>
+				<a class="mobile-nav-icon js--nav-icon"><i class="icon ion-ios-menu"></i></a>
+			</div> 
+		</nav>
+		
+		<div class="hero-text-box">
+		
+			<h1>Vladescu Gabriel</h1>
+			<h1>Hero section</h1>
+			<a class="btn btn-full" href="#">Button1</a>
+			<a class="btn btn-ghost" href="#">Button2</a>
+			
+		</div>
+	</header>
+	
+	<section class="prima-sectie js--prima-sectie">
+		<div class="row">
+			
+			<h2>HTML, CSS, GRID, SVG</h2>
+			
+			<p class="long-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, ex. Neque dolores dicta odit laudantium! Commodi fugit, sunt! Quaerat illum fugiat quas, suscipit error sapiente est enim quam possimus iure.</p>
+			
+		</div>
+		
+		<div class="row">
+		
+			<div class="col span-1-of-4">
+				<i class="ion-ios-basketball icon-big"></i>
+				<h3>Column 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis omnis commodi amet optio cum dolores, neque nostrum sint laudantium et vitae recusandae soluta laborum, consectetur reiciendis provident eligendi aliquid voluptates.</p>
+			</div>
+		
+			<div class="col span-1-of-4">
+				<i class="ion-ios-airplane icon-big"></i>
+				<h3>Column 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptas, sint praesentium sed earum deserunt itaque! Consequatur soluta dignissimos magni nulla laudantium quod accusamus, consectetur, maxime illo! Mollitia, qui, ratione!</p>
+			</div>
+			
+			<div class="col span-1-of-4">
+				<i class="ion-ios-barcode icon-big"></i>
+				<h3>Column 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi veniam voluptates inventore minus cupiditate laudantium assumenda culpa eius, sit tempora nisi necessitatibus explicabo voluptatem quibusdam nobis, animi quod temporibus reprehenderit.</p>
+			</div>
+			
+			<div class="col span-1-of-4">
+				<i class="ion-ios-alert icon-big"></i>
+				<h3>Column 4</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt perferendis aut commodi minima. Quam facilis nisi natus quibusdam porro fuga distinctio sint itaque consectetur modi beatae unde exercitationem, quaerat culpa.</p>
+			</div>
+		</div>
+	</section>
+		
+	<section class="json-ajax-js-canvas js--doua-sectie">
+		
+		<div class="row">
+			
+			<h2>JS &mdash; Canvas &mdash; AJAX</h2>
+			
+		</div>
+		
+		
+		<div class="row">
+		
+			<div class="col span-1-of-3">
+				<h3>Exemplu de sesssionStorage</h3>
+				<p><button onclick="clickCounter1()" type="button" class="btn">Apasa-ma!!</button></p>
+				<div id="result1"></div>
+				<p>Apasa pe buton ca sa cresti numarul.</p>
+				<p>Inchide tab-ul, sau browserul, pentru a reseta numarul.</p>
+			</div>
+			
+			<div class="col span-1-of-3">
+				<h3>Exemplu de localStorage</h3>
+				<p><button onclick="clickCounter()" type="button" class="btn">Click me!</button></p>
+				<div id="result"></div>
+				<p>Apasa pe buton ca sa cresti numarul.</p>
+				<p>Inchide tab-ul, sau browserul, apoi continua sa cresti numarul ( nu se va reseta ).</p>
+			</div>
+			
+			<div class="col span-1-of-3">
+				<h3>Exemplu de Canvas</h3>
+				<canvas>
+
+				</canvas>
+				<p>Foloseste sagetile ca sa misti patratul</p>
+			</div>
+			<div class="row">
+				<div class="col span-1-of-2">
+					
+					<h3>Exemplu de XML</h3>
+					<button onclick="loadXML()">
+						Preia date din XML
+					</button>
+				
+				</div>
+				
+				<div class="col span-1-of-2">
+					<h3>Rezultat XML</h3>
+					<table id="tabelXML">
+						
+					</table>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	
+	<section class="parere js--parere">
+		
+		<div class="row">
+			
+			<h2>HTML FORM</h2>
+			
+		</div>
+		
+		<div class="row">
+		
+			<form method="post" action="#" class="formular">
+				
+				<div class="row">
+				
+					<div class="col span-1-of-3">
+						<label for="name">Nume</label>
+					</div>
+					
+					<div class="col span-2-of-3">
+						<input type="text" name="name" id="name" placeholder="Numele d-voastra" required>
+					</div>
+				</div>
+				
+				<div class="row">
+				
+					<div class="col span-1-of-3">
+						<label for="email">E-mail</label>
+					</div>
+					
+					<div class="col span-2-of-3">
+						<input type="email" name="email" id="email" placeholder="E-mail-ul d-voastra" required>
+					</div>
+				</div>
+				
+				<div class="row">
+				
+					<div class="col span-1-of-3">
+						<label>Ce parere aveti de proiect?</label>
+					</div>
+					
+					<div class="col span-2-of-3">
+						<select name="parere" id="parere">
+							<option value="buna">Buna</option>
+							<option value="mediocra">Mediocra</option>
+							<option value="proasta">Proasta</option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="row">
+				
+					<div class="col span-1-of-3">
+						<label for="comentariu">Comentariu</label>
+					</div>
+					
+					<div class="col span-2-of-3">
+						<textarea name="comentariu" id="comentariu" placeholder="Comentariul d-voastra"></textarea>
+					</div>
+				</div>
+				
+				<div class="row">
+				
+					<div class="col span-1-of-3">
+					</div>
+					
+					<div class="col span-2-of-3">
+						<input type="submit" value="Trimite!">
+					</div>
+				</div>
+				
+			</form>
+		
+		</div>
+		
+	</section>
+	
+	<section class="video js--video">
+		
+		<div class="row">
+		
+			<h2>Videoclipuri</h2>
+			
+		</div>
+		
+		<div class="row">
+		
+			<div class="col span-1-of-2">
+			
+				<iframe src="https://www.youtube.com/embed/T5Aq7cRc-mU" allowfullscreen></iframe>
+			
+			</div>
+			
+			<div class="col span-1-of-2">
+			
+				<iframe src="https://www.youtube.com/embed/2awbKQ2DLRE" allowfullscreen></iframe>
+			
+			</div>
+			
+		</div>
+		
+	</section>
+	
+	<footer>
+		<div class="row">
+		
+			<ul class="social-nav icon-big">
+				<li><a href="https://www.android.com/"><i class="icon ion-logo-android"></i></a></li>
+				<li><a href="https://www.instagram.com/"><i class="icon ion-logo-instagram"></i></a></li>
+				<li><a href="https://www.facebook.com/"><i class="icon ion-logo-facebook"></i></a></li>
+				<li><a href="https://www.twitter.com/"><i class="icon ion-logo-twitter"></i></a></li>
+				<li><a href="https://www.apple.com/"><i class="icon ion-logo-apple"></i></a></li>
+			</ul>
+		
+		</div>
+		
+		<div class="row">
+			<p>Copyright &copy; 2018 de Vladescu Gabriel. Toate drepturile rezervate.</p>
+		</div>
+	</footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="vendors/js/jquery.waypoints.min.js"></script>
+	<script src="resources/js/animatie.js"></script>
+	<script src="resources/js/storage.js"></script>
+	<script src="resources/js/script.js"></script>
+</body>
+</html>
+
+

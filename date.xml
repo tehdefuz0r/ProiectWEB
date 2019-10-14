@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<db>
+  <masina>
+    <marca>Volvo</marca>
+    <model>S60</model>
+	<anFab>2015</anFab>
+  </masina>
+  <masina>
+    <marca>Volkswagen</marca>
+    <model>Golf 6</model>
+	<anFab>2014</anFab>
+  </masina>
+  <masina>
+    <marca>Mitsubishi</marca>
+    <model>Lancer</model>
+	<anFab>2009</anFab>
+  </masina>
+  <masina>
+    <marca>Toyota</marca>
+    <model>Yaris</model>
+	<anFab>2012</anFab>
+  </masina>  
+</db>
